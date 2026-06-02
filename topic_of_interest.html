@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Golf and Photography - Jason Kim</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      media="only screen and (max-width: 480px)"
+      href="css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 481px) and (max-width: 960px)"
+      href="css/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 961px)"
+      href="css/desktop.css"
+    />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body class="topic-page">
+    <div class="container">
+      <header>
+        <nav class="site-nav">
+          <a href="index.html">Home</a>
+          <a href="about_me.html">About Me</a>
+          <a href="more_about_me.html">More About Me</a>
+          <a href="topic_of_interest.html">Topic</a>
+          <a href="user_experience_design.html">UX Design</a>
+        </nav>
+        <h1>Golf and Photography</h1>
+      </header>
+
+      <main>
+        <div class="responsive-columns topic-columns">
+          <section class="column1">
+            <h2>Finding focus outside the classroom</h2>
+            <p id="spotlight-note">
+              I like hobbies that slow a moment down. Golf asks me to notice
+              small changes in rhythm, and photography asks me to notice light,
+              timing, and the feeling of a place.
+            </p>
+            <button id="mood-button" type="button">Change the angle</button>
+          </section>
+
+          <section class="column2">
+            <h2>Photography</h2>
+            <figure>
+              <img
+                id="feature-photo"
+                src="images/IMG_9115.jpg"
+                alt="Jason with a friend using a camera filter"
+              />
+              <figcaption>
+                A casual photo with my friend.
+              </figcaption>
+            </figure>
+          </section>
+
+          <section class="column3 motion-section">
+            <div class="motion-copy">
+              <h2>A small course map</h2>
+              <p>
+                The part I enjoy most is the quiet planning before the shot:
+                looking at the space, choosing a line, and then trying to commit
+                to it.
+              </p>
+              <button id="route-button" type="button">Plan the route</button>
+            </div>
+
+            <div id="moving-frame">
+              <span class="course-pin">Start</span>
+              <span class="course-line"></span>
+              <span class="course-pin finish">Finish</span>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; 2026 Jason Kim</p>
+      </footer>
+    </div>
+  </body>
+</html>

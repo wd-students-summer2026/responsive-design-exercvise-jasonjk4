@@ -1,0 +1,14 @@
+.container {
+  padding: 0 20px 40px;
+  width: 960px;
+}
+
+.column1,
+.column2,
+.column3 {
+  width: 33.3333%;
+}
+
+.wireframe-grid {
+  grid-template-columns: 1fr;
+}

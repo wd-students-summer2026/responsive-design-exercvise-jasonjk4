@@ -1,0 +1,69 @@
+.container {
+  padding: 0 14px 28px;
+}
+
+header {
+  padding-top: 22px;
+}
+
+.site-nav {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 6px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.column1,
+.column2,
+.column3 {
+  padding: 10px 0;
+  width: 100%;
+}
+
+.assignment-list {
+  padding: 18px 18px 18px 36px;
+}
+
+.about-page section,
+.more-page section,
+.motion-section {
+  padding: 16px;
+}
+
+figure {
+  margin: 18px 0;
+}
+
+#moving-frame {
+  height: 168px;
+}
+
+.course-pin {
+  font-size: 0.78rem;
+  left: 14px;
+  padding: 6px 8px;
+}
+
+.course-pin.finish {
+  right: 12px;
+}
+
+.course-line {
+  left: 70px;
+  width: 38%;
+}
+
+.prototype-index {
+  grid-template-columns: 1fr;
+}
